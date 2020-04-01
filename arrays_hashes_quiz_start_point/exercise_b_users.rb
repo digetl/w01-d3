@@ -64,7 +64,7 @@ p users.dig("Erik", :home_town)
 p users.dig("Erik", :lottery_numbers)
 
 # 4. Get the species of Avril's pet Monty
-p = users.dig(:Avril, :pets, :species) 
+p users.dig("Avril", :pets, 0, :species)
 
 # 5. Get the smallest of Erik's lottery numbers
 # p users.dig("Erik", :lottery_numbers)
