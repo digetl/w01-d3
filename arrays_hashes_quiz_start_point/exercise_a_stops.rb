@@ -28,6 +28,10 @@ p stops.reverse
 
 #10 Print out all the stops using a for loop
 
-stops.each { |stop|
+# stops.each { |stop|
+#     p stop
+# }
+
+for stop in stops
     p stop
-}
+end
